@@ -1,0 +1,26 @@
+name: SpecialWalk
+author: usy4
+api: 4.0.0
+version: 1.0.0
+main: usy4\SpecialWalk\Main
+description: SpecialWalk is plugin to make your walk so special with ore`s
+
+permissions:
+  specialwalk.command:
+    default: true
+  specialwalk.coal:
+    default: op
+  specialwalk.iron:
+    default: op
+  specialwalk.gold:
+    default: op
+  specialwalk.redstone:
+    default: op
+  specialwalk.lapis:
+    default: op
+  specialwalk.diamond:
+    default: op
+  specialwalk.emerald:
+    default: op
+  specialwalk.quartz:
+    default: op
