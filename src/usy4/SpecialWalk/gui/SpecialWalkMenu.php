@@ -17,7 +17,7 @@ class SpecialWalkMenu
     public static function init()
     {
         $menu = InvMenu::create(Main::TYPE_DROPPER);
-        $menu->setName("TraitWalk");
+        $menu->setName("SpecialWalk Menu");
         $menu->getInventory()->setItem(0, VanillaBlocks::COAL_ORE()->asItem()->setCustomName("§rCoal"));
         $menu->getInventory()->setItem(1, VanillaBlocks::IRON_ORE()->asItem()->setCustomName("§rIron"));
         $menu->getInventory()->setItem(2, VanillaBlocks::GOLD_ORE()->asItem()->setCustomName("§rGold"));
