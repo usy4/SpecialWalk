@@ -1,0 +1,16 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/usy4/SpecialWalk
+build-by-default: true
+branches:
+- main
+projects:
+  SpecialWalk:
+    path: ""
+    icon: "SpecialWalk.png"
+    libs:
+      - src: muqsit/InvMenu/InvMenu
+        branch: "4.0"
+        version: ^4.4.1
+      - src: "CortexPE/Commando/Commando"
+        branch: "PM4"
+        version: ^3.0.0
+...
