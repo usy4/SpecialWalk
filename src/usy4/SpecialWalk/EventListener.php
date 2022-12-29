@@ -69,13 +69,13 @@ class EventListener implements Listener
         Main::$blocks[$player->getName() . $alll] = [$l->getFloorX(), $l->getFloorY()-1, $l->getFloorZ(), $block, $alll, $player->getWorld()->getDisplayName()];
     }
 
-    public function onBreak(BlockBreakEvent $event)
+    public function onBreak(BlockBreakEvent $event): void
     {
         $block = $event->getBlock();
         $p = $block->getPosition();
         $alll = ($p->getX() . $p->getY() . $p->getZ());
         foreach(Main::$blocks as $keys => $values){
-            if (!$alll === $values[4]) return;
+            if ($alll !== $values[4]) return;
             $event->cancel();
         }
     }
