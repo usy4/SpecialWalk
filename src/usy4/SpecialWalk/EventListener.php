@@ -75,6 +75,9 @@ class EventListener implements Listener
         $p = $block->getPosition();
         $alll = ($p->getX() . $p->getY() . $p->getZ());
         foreach(Main::$blocks as $keys => $values){
+            var_dump($alll !== $values[4]);
+            var_dump($values[4]);
+            var_dump($alll);
             if ($alll !== $values[4]) return;
             $event->cancel();
         }
