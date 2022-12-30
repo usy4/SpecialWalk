@@ -18,6 +18,7 @@ class backTask extends Task {
     public function onRun() : void{
         $this->player->getWorld()->setBlockAt($this->block->getPosition()->x, $this->block->getPosition()->y, $this->block->getPosition()->z, $this->block);
         $alll = ($this->block->getPosition()->x. $this->block->getPosition()->y. $this->block->getPosition()->z);
+        var_dump($alll);
         unset(Main::$blocks[$this->player->getName() . $alll]);
     }
 }
