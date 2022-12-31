@@ -1,5 +1,8 @@
 # SpecialWalk
 SpecialWalk is plugin to make your walk so special with ore`s
+
+![image](https://user-images.githubusercontent.com/68358524/210122015-d3c5f471-d51e-41dc-8bdd-0f267eb62d19.png)
+
 # How to use
 Usage: `/specialwalk <on/off/menu>` 
 # Permissions
